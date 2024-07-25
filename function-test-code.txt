@@ -1,0 +1,23 @@
+{
+	"operation": "echo",
+	"payload": {
+	    "somekey1": "somevalue1",
+	    "somekey2": "somevalue2"
+	}
+}
+
+
+
+Test for DynamoDB
+
+{
+  "operation": "create",
+  "tableName": "lambda-apigateway",
+  "payload": {
+    "item": {
+      "id": "1234ABCD",
+      "number": 5
+    }
+  }
+
+}
